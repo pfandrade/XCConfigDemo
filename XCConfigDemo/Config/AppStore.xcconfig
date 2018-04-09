@@ -1,0 +1,16 @@
+//
+//  AppStore.xcconfig
+//  XCConfigDemo
+//
+//  Created by Paulo Andrade on 06/04/2018.
+//  Copyright © 2018 Paulo Andrade. All rights reserved.
+//
+
+#include "Common.xcconfig"
+
+API_TOKEN = ebc971a27de4517e1c37740267e310fdc820d991
+AUTO_SEND_CRASHES = 0
+
+RELEASE_TYPE = $(APPSTORE_RELEASE)
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPSTORE
+

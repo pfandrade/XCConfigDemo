@@ -1,0 +1,17 @@
+//
+//  Common.xcconfig
+//  XCConfigDemo
+//
+//  Created by Paulo Andrade on 06/04/2018.
+//  Copyright © 2018 Paulo Andrade. All rights reserved.
+//
+
+// treat the following as a variable
+RELEASE_TYPE = 0
+// treat the following as constants
+DEBUG_RELEASE = 1
+BETA_RELEASE = 2
+APPSTORE_RELEASE = 3
+
+GCC_PREPROCESSOR_DEFINITIONS = API_TOKEN=$(API_TOKEN) AUTO_SEND_CRASHES=$(AUTO_SEND_CRASHES) RELEASE_TYPE=$(RELEASE_TYPE) DEBUG_RELEASE=$(DEBUG_RELEASE) BETA_RELEASE=$(BETA_RELEASE) APPSTORE_RELEASE=$(APPSTORE_RELEASE)
+

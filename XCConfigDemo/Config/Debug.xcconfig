@@ -1,0 +1,16 @@
+//
+//  Debug.xcconfig
+//  XCConfigDemo
+//
+//  Created by Paulo Andrade on 06/04/2018.
+//  Copyright © 2018 Paulo Andrade. All rights reserved.
+//
+
+#include "Common.xcconfig"
+
+API_TOKEN = 2a47bc8b8ea02a85d86968bea5768cc14d08d891
+AUTO_SEND_CRASHES = 0
+
+RELEASE_TYPE = $(DEBUG_RELEASE)
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
+
